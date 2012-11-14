@@ -47,7 +47,7 @@ $propelRuntimeConfiguration = array(
  * format
  */
 
-foreach (Kohana::$config->load('database')->as_array() as $connectionName=>$connectionDetails) {
+foreach (Kohana::$config->load( 'database' )->as_array() as $connectionName=>$connectionDetails) {
 
 	$connectionType = $connectionDetails['type'];
 	
